@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+img {
+    display: inline;
+}
+a{
+    
+    float: inherit;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    text-shadow: 1px 1px 2px black;
+}
+p {
+    color: white;
+    width: 400;
+    height: 300;
+    text-shadow: 1px 1px 2px black;
+    z-index: -1000;
+}
+#box {
+    background-color: #333;
+    opacity: 0.7;
+    border: 1px solid;
+    width: 500;
+    height: 500;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+  }
+  #credits {
+    background-color: #333;
+    opacity: 0.7;
+    border: 1px solid;
+    width: 500;
+    height: 175;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+  }
+  #tos {
+    background-color: #333;
+    opacity: 0.7;
+    border: 1px solid;
+    width: 500;
+    height: 300;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+  }
+  #box2 {
+    background-color: #333;
+    opacity: 0.7;
+    border: 1px solid;
+    width: 500;
+    height: 500px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    z-index: -3842738537825;
+  }
+a:hover{
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px black;
+}
+.navbar {
+  z-index: 100;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  li {
+    float: left;
+  }
+  body {
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+    background: url(bg.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    -webkit-animation: fadein 2s;
+    animation: fadein 2s;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  #footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    color: white;
+}
+
+@keyframes fadein { 
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #555; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #333; 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #242424; 
+  }
